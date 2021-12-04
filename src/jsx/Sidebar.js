@@ -41,13 +41,13 @@ export default function Sidebar(){
           <div>Ver tudo</div>
         </div>
         
-        {infoSugestoes.map( info => {(
+        {infoSugestoes.map( info => (
             <Sugestao 
               imagem={info.imagem}
               nome={info.nome}
               razao={info.razao}
             />
-          )})}
+          ))}
 
       </div>
 

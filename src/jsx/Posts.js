@@ -9,7 +9,7 @@
       curtidasNumero: "101.523",
     },
     {
-      imagemUsuario: "assets/img/to_de_olho.svg" ,
+      imagemUsuario: "assets/img/to_de_olho.jpg" ,
       nomeUsuario: "LilithA+Gata",
       imagemPost: "assets/img/nunca_durma_primeiro.jpg",
       curtidasImagem: "assets/img/barked.svg",
@@ -25,7 +25,7 @@
       curtidasNumero: "99.159",
     },
     {
-      imagemUsuario: "assets/img/to_de_olho.svg" ,
+      imagemUsuario: "assets/img/to_de_olho.jpg" ,
       nomeUsuario: "LilithA+Gata",
       imagemPost: "assets/img/bom_dia.jpg",
       curtidasImagem: "assets/img/respondeai.svg",
@@ -33,7 +33,7 @@
       curtidasNumero: "153.358",
     },
     {
-      imagemUsuario: "assets/img/to_de_olho.svg" ,
+      imagemUsuario: "assets/img/to_de_olho.jpg" ,
       nomeUsuario: "LilithA+Gata",
       imagemPost: "assets/img/lugares_inusitados.jpg",
       curtidasImagem: "assets/img/meowed.svg",
@@ -44,7 +44,7 @@
 
   return (
     <div class="posts">
-      {infoPosts.map( info => {(
+      {infoPosts.map( info => (
           <Post 
             imagemUsuario={info.imagemUsuario}
             nomeUsuario={info.nomeUsuario}
@@ -53,7 +53,7 @@
             curtidasUsuario={info.curtidasUsuario}
             curtidasNumero={info.curtidasNumero}
           />
-        )})}
+        ))}
     </div>
   )
 }

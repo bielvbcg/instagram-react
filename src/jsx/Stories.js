@@ -36,12 +36,12 @@ export default function Stories(){
 
   return (
     <div class="stories">
-      {infoStories.map( info => {(
+      {infoStories.map( info => (
           <Story 
             imagem={info.imagem}
             usuario={info.usuario}
           />
-        )})}
+        ))}
 
       <div class="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>
