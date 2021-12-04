@@ -9,13 +9,37 @@
       curtidasNumero: "101.523",
     },
     {
+      imagemUsuario: "assets/img/to_de_olho.svg" ,
+      nomeUsuario: "LilithA+Gata",
+      imagemPost: "assets/img/nunca_durma_primeiro.jpg",
+      curtidasImagem: "assets/img/barked.svg",
+      curtidasUsuario: "barked",
+      curtidasNumero: "780.985",
+    },
+    {
       imagemUsuario: "assets/img/barked.svg",
       nomeUsuario: "barked",
       imagemPost: "assets/img/dog.svg",
       curtidasImagem: "assets/img/adorable_animals.svg",
       curtidasUsuario: "adorable_animals",
       curtidasNumero: "99.159",
-    }
+    },
+    {
+      imagemUsuario: "assets/img/to_de_olho.svg" ,
+      nomeUsuario: "LilithA+Gata",
+      imagemPost: "assets/img/bom_dia.jpg",
+      curtidasImagem: "assets/img/respondeai.svg",
+      curtidasUsuario: "respondeai",
+      curtidasNumero: "153.358",
+    },
+    {
+      imagemUsuario: "assets/img/to_de_olho.svg" ,
+      nomeUsuario: "LilithA+Gata",
+      imagemPost: "assets/img/lugares_inusitados.jpg",
+      curtidasImagem: "assets/img/meowed.svg",
+      curtidasUsuario: "meowed",
+      curtidasNumero: "350.687",
+    },
   ]
 
   return (
