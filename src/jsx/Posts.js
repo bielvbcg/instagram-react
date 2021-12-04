@@ -21,15 +21,16 @@
   return (
     <div class="posts">
       {infoPosts.map( info => {
-        <Post 
-          imagemUsuario={info.imagemUsuario}
-          nomeUsuario={info.nomeUsuario}
-          imagemPost={info.imagemPost}
-          curtidasImagem={info.curtidasImagem}
-          curtidasUsuario={info.curtidasUsuario}
-          curtidasNumero={info.curtidasNumero}
-        />
-      })}
+        return (
+          <Post 
+            imagemUsuario={info.imagemUsuario}
+            nomeUsuario={info.nomeUsuario}
+            imagemPost={info.imagemPost}
+            curtidasImagem={info.curtidasImagem}
+            curtidasUsuario={info.curtidasUsuario}
+            curtidasNumero={info.curtidasNumero}
+          />
+        )})}
     </div>
   )
 }
