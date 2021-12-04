@@ -36,8 +36,7 @@ export default function Stories(){
 
   return (
     <div class="stories">
-      {infoStories.map( info => {
-        return (
+      {infoStories.map( info => {(
           <Story 
             imagem={info.imagem}
             usuario={info.usuario}

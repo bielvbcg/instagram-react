@@ -20,8 +20,7 @@
 
   return (
     <div class="posts">
-      {infoPosts.map( info => {
-        return (
+      {infoPosts.map( info => {(
           <Post 
             imagemUsuario={info.imagemUsuario}
             nomeUsuario={info.nomeUsuario}
