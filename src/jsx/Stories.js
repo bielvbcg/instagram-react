@@ -50,7 +50,7 @@ export default function Stories(){
   )
 }
 
-function Story(){
+function Story({imagem , usuario}){
   return (
     <div class="story">
       <div class="imagem">

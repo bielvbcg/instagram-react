@@ -34,7 +34,7 @@
   )
 }
 
-function Post(){
+function Post({imagemUsuario , nomeUsuario , imagemPost , curtidasImagem , curtidasUsuario , curtidasNumero}){
   return (
     <div class="post">
       <div class="topo">
